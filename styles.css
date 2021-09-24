@@ -113,7 +113,7 @@ p {
 
 /* section */
 .section {
-  padding: 2rem 10rem;
+  padding: 5rem 10rem;
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
@@ -187,8 +187,8 @@ nav {
   height: 200px;
 }
 .links a {
-  color: #64ffda;
-  font-size: 1.1rem;
+  color: #8892b0;
+  font-size: 0.8rem;
   text-transform: capitalize;
   letter-spacing: 0.25rem;
   display: block;
@@ -197,7 +197,7 @@ nav {
   padding: 0.75rem 0;
 }
 .links a:hover {
-  color: #8892b0;
+  color: #64ffda;
 }
 @media screen and (min-width: 800px) {
   nav {
@@ -209,7 +209,7 @@ nav {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+   
   }
   .nav-header {
     padding: 0;
@@ -268,7 +268,7 @@ img{
 .title #title {
   text-align: center;
   text-transform: uppercase;
-  font-size: large;
+  font-size: xx-large;
   color: #8892b0 ;
 }
 .title span {
@@ -284,7 +284,9 @@ img{
     justify-content: space-between;
     height: 40vh;
 }
- 
+ .contact-content{
+   padding-top: 50px;
+ }
 footer {
  
   padding: 5rem 1rem;
@@ -335,6 +337,16 @@ footer p {
 }
 .links .nav__link{
   padding-right: 1.5rem;
+ 
+}
+.media_links_list{
+  display: inline-flex;
+ padding-right: 670px;
+
+}
+.media_links_list .media_links i{
+  font-size: 1.65rem;
+  padding: 0 10px;
 }
 #contact .text{
   color: #64ffda;
@@ -373,6 +385,7 @@ footer p {
 #contact .contact-content .info .sub-title{
   color: #8892b0;
 }
+
 #contact .right form .fields{
   display: flex;
 }
@@ -412,4 +425,5 @@ resize: none;
 #contact .right form .button-area{
 display: flex;
 align-items: center;
+padding-top: 10px;
 }
